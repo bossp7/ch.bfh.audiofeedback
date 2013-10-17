@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="list1">
+        <item>48000</item>
+        <item>44100</item>
+        <item>32000</item>
+        <item>22050</item>
+        <item>16000 (Default)</item>
+    </string-array>
+    
+    <string-array name="list1Values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    
+    <string-array name="list2">
+        <item>Default Mic</item>
+        <item>Front Mic</item>
+        <item>Camcorder Mic</item>
+    </string-array>
+    
+    <string-array name="list2Values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    
+</resources>

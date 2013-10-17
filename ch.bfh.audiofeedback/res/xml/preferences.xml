@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+            android:title="@string/cat1">
+            
+        <ListPreference
+                android:key="list_1"                
+                android:title="@string/title_list1"
+                android:summary="@string/summary_list1"
+                android:entries="@array/list1"
+            	android:entryValues="@array/list1Values" 
+            	android:defaultValue="5"/>
+        
+        <ListPreference
+                android:key="list_2"                
+                android:title="@string/title_list2"
+                android:summary="@string/summary_list2"
+                android:entries="@array/list2"
+           		android:entryValues="@array/list2Values" 
+           		android:defaultValue="3"/>
+                    
+    </PreferenceCategory>
+                
+    <PreferenceCategory
+            android:title="@string/cat2">
+
+        <CheckBoxPreference
+                android:key="checkbox_1"
+                android:title="@string/title_cb1"
+                android:summary="@string/summary_cb1" 
+                android:defaultValue="true"/>
+            
+        <CheckBoxPreference
+                android:key="checkbox_2"
+                android:title="@string/title_cb2"        
+                android:summary="@string/summary_cb2" 
+                android:defaultValue="true"/>
+                
+    </PreferenceCategory>
+    
+</PreferenceScreen>

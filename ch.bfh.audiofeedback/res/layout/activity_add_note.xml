@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/android:list"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content" >
+
+
+	<RelativeLayout 
+	    android:id="@+id/RelativeLayoutHeader"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content" >
+	    
+	    <!-- First Line: Client Name -->
+	    <TextView 
+	        android:id="@+id/AddNote_TextView1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentTop="true"
+	        android:layout_marginTop="16pt"
+	        android:layout_marginLeft="16pt"
+		    android:text="@string/name"        
+	        android:ems="10"/>
+	   
+		<TextView 
+	        android:id="@+id/AddNote_TextView2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignBaseline="@+id/AddNote_TextView1"
+	        android:layout_toRightOf="@+id/AddNote_TextView1" 
+	        android:text="Small Text"     
+	        android:ems="10"/>
+	    
+		<!-- Second Line: Client Firstname -->
+	    <TextView 
+	        android:id="@+id/AddNote_TextView3"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/AddNote_TextView1"
+	        android:layout_alignLeft="@+id/AddNote_TextView1"
+		    android:text="@string/prename"        
+	        android:ems="10"/>
+		<TextView 
+	        android:id="@+id/AddNote_TextView4"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignBaseline="@+id/AddNote_TextView3"
+	        android:layout_toRightOf="@+id/AddNote_TextView3"    
+	        android:text="Small Text"  
+	        android:ems="10"/>
+		
+		<!-- Third Line: Client Date of Birth -->
+	    <TextView 
+	        android:id="@+id/AddNote_TextView5"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/AddNote_TextView3"
+	        android:layout_alignLeft="@+id/AddNote_TextView3"
+		    android:text="@string/dob"        
+	        android:ems="10"/>
+		<TextView 
+	        android:id="@+id/AddNote_TextView6"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignBaseline="@+id/AddNote_TextView5"
+	        android:layout_toRightOf="@+id/AddNote_TextView5" 
+	        android:text="Small Text"    
+	        android:ems="10"/>
+		
+		<!-- Forth Line: Client gender -->
+	    <TextView 
+	        android:id="@+id/AddNote_TextView7"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/AddNote_TextView5"
+	        android:layout_alignLeft="@+id/AddNote_TextView5"
+		    android:text="@string/gender"        
+	        android:ems="10"/>
+		<TextView 
+	        android:id="@+id/AddNote_TextView8"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignBaseline="@+id/AddNote_TextView7"
+	        android:layout_toRightOf="@+id/AddNote_TextView7" 
+	        android:text="Small Text"     
+	        android:ems="10"/>
+		
+		<!-- Fifth Line: Notes -->
+		<TextView 
+	        android:id="@+id/AddNote_TextView9"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/AddNote_TextView7"
+	        android:layout_alignLeft="@+id/AddNote_TextView7"
+		    android:text="@string/note"        
+	        android:ems="10"/>
+	     <EditText
+	        android:id="@+id/AddNote_EditText1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignTop="@+id/AddNote_TextView9"
+	        android:layout_toRightOf="@+id/AddNote_TextView9" 
+	        android:gravity="top"
+	        android:ems="10"
+	        android:maxLines="5"
+	        android:minLines="5"/>
+	   
+	    <!-- At least: some buttons to save and reset --> 
+	        
+	    <Button
+	        android:id="@+id/AddNote_Button1"
+	        style="?android:attr/buttonStyleSmall"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/AddNote_TextView9"
+	        android:layout_below="@+id/AddNote_EditText1"
+	        android:text="@string/createclient_savebutton" />
+	    
+	    <Button
+	        android:id="@+id/AddNote_Button2"
+	        style="?android:attr/buttonStyleSmall"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_toRightOf="@+id/AddNote_Button1"
+	        android:layout_below="@+id/AddNote_EditText1"
+	        android:text="@string/createclient_resetbutton" />
+	</RelativeLayout>
+</ScrollView>

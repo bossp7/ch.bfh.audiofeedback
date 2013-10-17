@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Audio Feedback Analyzer</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="item1">Pause</string>
+    <string name="item2">Resume</string>
+    <string name="item3">Lin/Log</string>
+    <string name="item4">Drucken</string>
+    <string name="item5">Analyse Auswahl</string>
+    <string name="item6">Einstellungen</string>
+    <string name="cat1">Audio</string>
+    <string name="title_list1">Audio Samplerate</string>
+    <string name="summary_list1">Set the audio samplerate</string>
+    <string name="title_list2">Audio Source</string>
+	<string name="summary_list2">Set the audio input source</string>
+	<string name="cat2">Display</string>
+    <string name="title_cb1">Keep Screen Awake</string>
+    <string name="summary_cb1">Keep screen awake while app is active and in focus</string>
+    <string name="title_cb2">Force Landscape</string>
+	<string name="summary_cb2">Force the screen to stay in landscape mode, rather than following the phone\'s sensor. (Landscape produces more accurate plots.)</string>
+	
+	<!-- General  -->
+    <string name="title_client_detail">Client detail</string>
+    <string name="name">Last name</string>
+    <string name="prename">First name</string>
+    <string name="dob">Date of birth</string>
+    <string name="gender">Gender</string>
+    <string name="note">Notes</string>
+    
+    <!-- OptionMenu in MainActivity -->
+    <string name="mainmenu_item1_title">Open client list</string>   
+  
+    <!-- Fields in CreateClientActivity -->  
+ 	<string name="client_name">Name</string>
+    <string name="client_prename">Vorname</string>
+    <string name="client_dob">Geburtsdatum</string>
+    <string name="client_gender">Geschlecht</string>
+    <string name="client_note">Notizen</string>
+    
+    <string name="clientlist_optionmenu_item1_title">Create new patient</string>
+    <string name="createclient_savebutton">Save data</string>
+    <string name="createclient_resetbutton">Reset data</string>
+    
+    <string-array name="gender_array">
+        <item>female</item>
+        <item>male</item>
+    </string-array>
+    
+    <string name="gender_choose">Choose gender...</string>
+    
+    <!-- Context Menu in ClientListActivity -->
+    <string name="clientlist_contextmenu_item1_title">Delete patient</string>
+    
+    <!-- SavingFailedDialog in ClientListActivity -->
+    <string name="dialog_savingFailed">Creating entry in database failed</string>
+    <string name="OK">OK</string>
+	
+</resources>
